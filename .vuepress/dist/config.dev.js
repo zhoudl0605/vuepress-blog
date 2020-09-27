@@ -1,5 +1,8 @@
-const headConfig = require("./config/headConfig.js");
-const themeConfig = require("./config/themeConfig.js");
+"use strict";
+
+var headConfig = require("./config/headConfig.js");
+
+var themeConfig = require("./config/themeConfig.js");
 
 module.exports = {
   title: "Alex‘s Blog",
@@ -10,9 +13,9 @@ module.exports = {
   // theme: "reco",
   themeConfig: themeConfig,
   markdown: {
-    lineNumbers: true,
+    lineNumbers: true
   },
   plugins: {
-    "vuepress-plugin-auto-sidebar": {},
-  },
+    "vuepress-plugin-auto-sidebar": {}
+  }
 };

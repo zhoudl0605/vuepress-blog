@@ -1,7 +1,12 @@
-const vssueConfig = require("./themeConfig/vssueConfig");
-const friendLink = require("./themeConfig/friendLink");
-const nav = require("./themeConfig/nav");
-const blogConfig = require("./themeConfig/blogConfig");
+"use strict";
+
+var vssueConfig = require("./themeConfig/vssueConfig");
+
+var friendLink = require("./themeConfig/friendLink");
+
+var nav = require("./themeConfig/nav");
+
+var blogConfig = require("./themeConfig/blogConfig");
 
 module.exports = {
   author: "Dinglun Alex Zhou",
@@ -22,5 +27,5 @@ module.exports = {
   // sidebar: {
   //   "/docs/theme-reco/": ["", "theme", "plugin", "api"],
   // },
-  huawei: true,
+  huawei: true
 };

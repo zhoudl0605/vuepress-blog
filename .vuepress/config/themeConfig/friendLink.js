@@ -1,14 +1,11 @@
 module.exports = [
   {
-    title: "午后南杂",
-    desc: "Enjoy when you can, and endure when you must.",
-    email: "1156743527@qq.com",
-    link: "https://www.recoluan.com",
-  },
-  {
-    title: "vuepress-theme-reco",
-    desc: "A simple and beautiful vuepress Blog & Doc theme.",
-    avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    link: "https://vuepress-theme-reco.recoluan.com",
+    title: "HyperOptimal Inc.",
+    desc:
+      "HyperOptimal is a software company focused on Website Development, Software Development, Database and API design, Business Strategy and Branding.",
+    logo:
+      "https://i0.wp.com/hyperoptimal.ca/wp-content/uploads/2020/08/logo.md_.png?fit=150%2C150&ssl=1",
+    email: "info@hyperoptimal.ca",
+    link: "https://hyperoptimal.ca/",
   },
 ];

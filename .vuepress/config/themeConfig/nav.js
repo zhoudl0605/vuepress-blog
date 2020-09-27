@@ -5,24 +5,9 @@ module.exports = [
     icon: "reco-home",
   },
   {
-    text: "TimeLine",
-    link: "/timeline/",
-    icon: "reco-date",
-  },
-  {
     text: "Resume",
-    link: "/docs/resume/",
-    icon: "reco-date",
-  },
-  {
-    text: "Docs",
-    icon: "reco-message",
-    items: [
-      {
-        text: "vuepress-reco",
-        link: "/docs/theme-reco/",
-      },
-    ],
+    link: "/docs/Profile/",
+    icon: "reco-file",
   },
   {
     text: "Contact",

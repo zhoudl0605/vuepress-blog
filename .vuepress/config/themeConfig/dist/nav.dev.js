@@ -19,5 +19,9 @@ module.exports = [{
     text: "LinkedIn",
     link: "https://www.linkedin.com/in/dinglunzhou",
     icon: "reco-linkedin"
+  }, {
+    text: "Email",
+    link: "mailto:zhoudl0605@hotmail.com",
+    icon: "reco-email"
   }]
 }];

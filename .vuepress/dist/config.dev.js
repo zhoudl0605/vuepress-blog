@@ -7,7 +7,7 @@ var themeConfig = require("./config/themeConfig.js");
 module.exports = {
   title: "Alex‘s Blog",
   description: "Think twice code once",
-  base: "/vuepress-blog/",
+  // base: "/vuepress-blog/",
   dest: "public",
   head: headConfig,
   theme: "reco",

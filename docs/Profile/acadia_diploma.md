@@ -11,4 +11,4 @@ categories:
 sticky: 2
 ---
 
-![Acadia University Diploma](/acadia_diploma.jpg "Acadia University Diploma")
+<img :src="$withBase('/acadia_diploma.jpg')" alt="Acadia University Diploma">

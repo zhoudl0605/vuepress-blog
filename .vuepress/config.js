@@ -7,7 +7,7 @@ module.exports = {
   base: "/vuepress-blog/",
   dest: "public",
   head: headConfig,
-  // theme: "reco",
+  theme: "reco",
   themeConfig: themeConfig,
   markdown: {
     lineNumbers: true,

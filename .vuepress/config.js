@@ -14,5 +14,8 @@ module.exports = {
   },
   plugins: {
     "vuepress-plugin-auto-sidebar": {},
+    "@vuepress/google-analytics": {
+      'ga': 'G-H3JSNRE7KB'
+    }
   },
 };

@@ -8,6 +8,7 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.6.0",
     "vuepress": "1.5.4",
     "vuepress-theme-reco": "1.5.7"
   },

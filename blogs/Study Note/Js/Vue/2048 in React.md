@@ -1,8 +1,8 @@
 ---
-title: React 2048
+title: Vue 2048
 date: 2020-09-30
 tags:
- - React
+ - Vue
  - 2048
  - js
 categories:
@@ -11,7 +11,7 @@ categories:
 
 ## Background
 
-2048 was a popular game back in 2018, and right now I'm learning the `React.js` thus, I will make a 2048 game for fun.
+2048 was a popular game back in 2018, and right now I'm learning the `Vue.js` thus, I will make a 2048 game for fun.
 
 <img :src="$withBase('/2048_game.png')" alt="2048 Example">
 

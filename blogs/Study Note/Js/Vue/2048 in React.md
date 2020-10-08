@@ -12,6 +12,7 @@ categories:
 ## Background
 
 2048 was a popular game back in 2018, and right now I'm learning the `Vue.js` thus, I will make a 2048 game for fun.
+project address: https://github.com/zhoudl0605/2048
 
 <img :src="$withBase('/2048_game.png')" alt="2048 Example">
 

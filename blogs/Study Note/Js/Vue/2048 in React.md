@@ -96,3 +96,17 @@ Objects in the game:
 * if move `right`, move the most right block first then the second one in that line
 
 * if can not generate new block, it means this game is over
+
+## Current progress
+
+* finish the UI
+
+* support create new game
+
+* detect `up` `down` `left` `right` key press
+
+## TODO
+
+* complete the logic when press key
+
+* update the CSS setting for blocks

@@ -14,6 +14,8 @@ sticky: 1
 
 # Resume
 
+<a href="/Dinglun_Zhou_Resume.pdf" download>Click to Download My Resume</a>
+
 ## Personal Information
 
 - Name: Dinglun Zhou
@@ -74,5 +76,3 @@ sticky: 1
 - I'm creative and enterprising. I love sports, animals and talking with other people. Positive optimism
 
   is my most significant advantage and will not readily admit defeat.
-
-<a href="/Dinglun_Zhou_Resume.pdf" download>Click to Download My Resume</a>

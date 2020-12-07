@@ -14,7 +14,7 @@ sticky: 1
 
 # Resume
 
-<a href="/Dinglun_Zhou_Resume.pdf" download>Click to Download My Resume</a>
+<!-- <a href="/Dinglun_Zhou_Resume.pdf" download>Click to Download My Resume</a> -->
 
 ## Personal Information
 

@@ -19,8 +19,8 @@ sticky: 1
 ## Personal Information
 
 - Name: Dinglun Zhou
-- Address: 204 - 405 Pleasant Street Wolfville, NS, Canada
-- Mobile: [+1 (902) 599 - 3539](tel:+19025993539)
+- Address: Wolfville, NS, Canada
+  <!-- - Mobile: [+1 (902) 599 - 3539](tel:+19025993539) -->
 - Email: zhoudl0605@hotmail.com
 - Website: alexzhou0605.com
 - LinkedIn: www.linkedin.com/in/dinglunzhou

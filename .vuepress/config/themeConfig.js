@@ -9,7 +9,7 @@ module.exports = {
   blogConfig: blogConfig,
   friendLink: friendLink,
   lastUpdated: "Last Updated",
-  logo: "/logo.png",
+  // logo: "/bander.jpg",
   nav: nav,
   noFoundPageByTencent: false,
   // record: "xxxx",

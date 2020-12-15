@@ -195,3 +195,8 @@ then the bash will execute serially:
 - `ls -l /home/` 
 -  `rm -rf /` (remove everything from root directory)
 
+
+
+### Avoid attack
+
+So far, the most effective way to prevent OS command injection vulnerabilities is never to call OS commands from application layer code. There are alternative ways to use more secure platform `API` to achieve the desired functionality in almost every case.

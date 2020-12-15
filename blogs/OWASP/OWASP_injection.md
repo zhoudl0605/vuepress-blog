@@ -120,6 +120,50 @@ because `1 = 1` is true, then we always can get return value and bypass the logi
 
 
 
+### Avoid Attack
+
+#### 1. Check data type and format
+
+If your `SQL` statement is in a form similar to `where id=$id`, and all `id` in the database are numbers, then you should check to make sure that the variable `id` is of type int before the `SQL` is executed; if it is an acceptance email, then You should check and strictly ensure that the variable must be in the format of the email. Other types such as `date` and `time` are also the same. To sum up: As long as there is a fixed format variable before the SQL statement is executed, it should be checked strictly according to the fixed format to ensure that the variable is in the format we expected, which can largely avoid SQL injection attacks.
+
+
+
+#### 2. Filter special characters
+
+For variables whose format cannot be determined, special symbol filtering or escaping must be performed. In `PHP` method  `addslashes()` is handy. It will add a backslash escape before the specified predefined characters. These predefined characters are: `'`, `"`, `\` and `NULL`.
+
+
+
+#### 3. Bind variables
+
+`mysqli` is the driver of `MySQL` in `PHP` which support bind variables, such as:
+
+``` php
+$username = isset($_GET['username']) ? $_GET['username'] : '';
+$userinfo = array();
+if($username){
+	//use mysqli connect database
+	$mysqli = new mysqli("localhost", "root", "root", 'test');
+	//use ? replace variable, reference: https://www.php.net/manual/en/mysqli-stmt.bind-param.php
+	$sql = "SELECT uid,username FROM user WHERE username=?";
+	$stmt = $mysqli->prepare($sql);
+	//bind variable
+	$stmt->bind_param("s", $username);
+	$stmt->execute();
+	$stmt->bind_result($uid, $username);
+	while ($stmt->fetch()) {
+	    $row = array();
+	    $row['uid'] = $uid;
+	    $row['username'] = $username;
+	    $userinfo[] = $row;
+	}
+}
+```
+
+
+
+
+
 ## OS injection
 
 OS command execution is a technology for executing OS commands on a web server through a network interface. If the application uses input strings or externally-influenced strings externally to assemble commands without proper filtering, it may cause OS command injection attacks.

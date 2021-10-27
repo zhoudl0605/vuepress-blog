@@ -6,7 +6,7 @@ module.exports = [
   },
   {
     text: "Resume",
-    link: "/docs/Profile/",
+    link: "/docs/Profile/resume",
     icon: "reco-document",
   },
   {

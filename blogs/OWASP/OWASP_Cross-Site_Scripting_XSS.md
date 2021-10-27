@@ -2,12 +2,10 @@
 title: OWASP Top Ten - Cross-Site Scripting XSS
 date: 2020-12-15
 tags:
-
- - OWASP
- - Cross-Site Scripting XSS
-   categories:
- - Article
- - OWASP
+  - OWASP
+categories:
+  - Article
+  - OWASP
 ---
 
 Cross-site scripting is a security vulnerability that often occurs in web applications. It allows malicious web users to implant code into pages provided to other users. These codes include HTML code and client-side scripts. The common knowledge of the hacker community is that xss is a new type of "buffer overflow attack"

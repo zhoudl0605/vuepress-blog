@@ -3,7 +3,6 @@ title: OWASP Top Ten - Injection
 date: 2020-12-15
 tags:
   - OWASP
-  - Injection
 categories:
   - Article
   - OWASP

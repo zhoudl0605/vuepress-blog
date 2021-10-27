@@ -18,7 +18,7 @@ module.exports = {
   startYear: "2020",
   subSidebar: "auto",
   type: "blog",
-  vssueConfig: vssueConfig,
+  // vssueConfig: vssueConfig,
   // sidebar: {
   //   "/docs/theme-reco/": ["", "theme", "plugin", "api"],
   // },

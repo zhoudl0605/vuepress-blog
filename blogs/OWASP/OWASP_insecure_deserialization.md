@@ -2,13 +2,11 @@
 title: OWASP Top Ten - Insecure Deserialization
 date: 2020-12-15
 tags:
-
- - OWASP
- - Insecure Deserialization
-   categories:
- - Article
- - OWASP
-todo:
+  - OWASP
+categories:
+  - Article
+  - OWASP
+---
 	
 
 ---

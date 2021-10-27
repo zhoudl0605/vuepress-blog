@@ -2,11 +2,10 @@
 title: OWASP Top Ten - Broken Authentication
 date: 2020-12-15
 tags:
- - OWASP
- - Broken Authentication
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
 
 Broken authentication is a general term for multiple vulnerabilities used by attackers to impersonate legitimate users online. Broadly speaking, broken authentication refers to two weaknesses: session management and credential management.
@@ -28,8 +27,3 @@ Broken authentication is a general term for multiple vulnerabilities used by att
 5. Limit the number of failed logins. Record all failure information and alert the administrator when credential filling, brute force cracking or other attacks are detected.
 
 6. Use the server-side secure built-in session manager to generate a highly complex random session ID after logging in. The session ID cannot be in the URL, it can be safely stored and invalidated after logout, idle, or absolute timeout.
-
-
-
-
-

@@ -15,17 +15,19 @@ sticky: 1
 # Resume
 
 <!-- <a href="/Dinglun_Zhou_Resume.pdf" download>Click to Download My Resume</a> -->
-
+::: tip
+If you need a digital copy of my resume, please sen me an [email](zhoudl0605@hotmail.com)
+:::
 ## Personal Information
 
 - Name: Dinglun Zhou
-- Address: Wolfville, NS, Canada
+- Address: Halifax, NS, Canada
   <!-- - Mobile: [+1 (902) 599 - 3539](tel:+19025993539) -->
-- Email: zhoudl0605@hotmail.com
-- Website: alexzhou0605.com
-- LinkedIn: www.linkedin.com/in/dinglunzhou
+- Email: <zhoudl0605@hotmail.com>
+- Website: <https://alexzhou0605.com>
+- LinkedIn: <https://www.linkedin.com/in/dinglunzhou>
 - Gender: Male
-- Age: 23
+- Age: <span>{{ new Date().getFullYear() - 1997 }} </span>
 
 ## Career Objective
 
@@ -58,7 +60,15 @@ sticky: 1
 
 ## Work Experience
 
-- #### Developer | HyperOptimal Inc. | 2019/02 - present
+- #### Full Stack Web Developer | Henry Schein Canada Inc. | 2020/10 - Present
+  - Involved in the development of DDX, which included:
+    - designing new API
+    - developing new features
+    - data mapping
+    - improving user experience
+    - design workflow
+
+- #### Developer | HyperOptimal Inc. | 2019/02 - 2020/11
 
   - Project: [One Heart Ministries](https://oneheartministries.ca/)
     - Technology: Vue.js, Vuetify, JavaScript, Git

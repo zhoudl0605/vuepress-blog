@@ -2,11 +2,10 @@
 title: OWASP Top Ten - XML External Entities
 date: 2020-12-15
 tags:
- - OWASP
- - XML External Entities
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
 
 ## Description

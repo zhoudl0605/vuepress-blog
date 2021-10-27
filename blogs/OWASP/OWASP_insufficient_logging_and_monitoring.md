@@ -2,11 +2,10 @@
 title: OWASP Top Ten - Insufficient Logging & Monitoring
 date: 2020-12-15
 tags:
- - OWASP
- - Insufficient Logging & Monitoring
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
 
 

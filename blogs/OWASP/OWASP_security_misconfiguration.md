@@ -2,11 +2,10 @@
 title: OWASP Top Ten - Security Misconfiguration
 date: 2020-12-15
 tags:
- - OWASP
- - Security Misconfiguration
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
 
 Security configuration errors can occur in an application, including platform, web server, application server, database, architecture, and custom code. Attackers give priority to authorized access to the system by accessing accounts, unused web pages, vulnerabilities of uninstalled patches, protected files and directories, etc.

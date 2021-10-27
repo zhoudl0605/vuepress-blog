@@ -2,11 +2,10 @@
 title: OWASP Top Ten - Using Components with Known Vulnerabilities
 date: 2020-12-15
 tags:
- - OWASP
- - Using Components with Known Vulnerabilities
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
 
 Components such as libraries, frameworks, and other software modules run with the same privileges as applications. If vulnerable components are utilized, such attacks may result in severe data loss or server takeover. Applications and APIs that use known vulnerabilities may undermine application defences and cause various attacks and impacts.

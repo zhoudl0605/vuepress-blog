@@ -2,14 +2,11 @@
 title: OWASP Top Ten - Broken Access Control
 date: 2020-12-15
 tags:
- - OWASP
- - Broken Access Control
+  - OWASP
 categories:
- - Article
- - OWASP
+  - Article
+  - OWASP
 ---
-
-
 
 ## Description
 
@@ -34,4 +31,3 @@ File upload, file inclusion, arbitrary file download, arbitrary file deletion
 1. Strengthen the encapsulation and encryption of reference parameters
 
 2. Use security labels and adopt a strong access control model (MAC)
-
